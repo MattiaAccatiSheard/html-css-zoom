@@ -1,0 +1,84 @@
+:root{
+    
+}
+
+/* body */
+body{
+    background-color: rgb(20, 20, 20);
+    color: azure;
+}
+
+/* header */
+header{
+    background-color: rgb(20, 20, 20);
+    padding: 1rem;
+    height: 40px;
+}
+header>.row{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header>.row>.btn{
+    background-color: grey;
+    margin-right: 4px;
+    border-radius: 5px;
+    padding: 3px;
+    border-top: 4px;
+    vertical-align: middle;
+}
+
+/* main */
+
+main{
+    height: calc(100vh-40px-60px);
+}
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    /* debug */
+    background-color: antiquewhite;    
+}
+
+.name{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px;
+    display: inline-block;
+    background-color: rgba(20, 20, 20, .5);
+}
+
+/* footer */
+footer{
+    height: 60px;
+    vertical-align: bottom;
+    background-color: darkgrey;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer-container> div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.item{
+    margin: 10px, 0px;
+}
